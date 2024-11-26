@@ -54,5 +54,6 @@ if __name__ == "__main__":
         # Download and install libraries
         libs_download(libs, suppress_output=suppress)
         print("Libraries installed successfully!")
+        
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while installing libraries: {e}")
